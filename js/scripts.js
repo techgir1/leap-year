@@ -10,6 +10,8 @@ var leapYear = function(year) {
 $("#result").empty().append(year);
 $("#answer").show();
 
+	event.preventDefault();
+
   });
 });
  
